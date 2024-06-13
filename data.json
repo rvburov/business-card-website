@@ -1,0 +1,71 @@
+{
+    "properties": [
+      {
+        "id": "1",
+        "title": "Новостройка: ЖК Бутово",
+        "description": "Адрес: г. Москва, ул. Гагарина, д. 1<br>Стоимость: 20 млн<br>Описание: двухкомнатная квартира 102 кв.м.",
+        "image": "image/property-1/plan 1.jpg",
+        "image1": "image/property-1/plan 11.jpg",
+        "image2": "image/property-1/plan 111.webp"
+      },
+      {
+        "id": "2",
+        "title": "Новостройка: ЖК Мурино",
+        "description": "Адрес: Ленинградская область, Восточный проспект, д. 8<br>Стоимость: 9 млн<br>Описание: двухкомнатная квартира 42 кв.м.",
+        "image": "image/property-2/plan 2.png",
+        "image1": "image/property-2/plan 22.webp",
+        "image2": "image/property-2/plan 222.webp"
+      },
+      {
+        "id": "3",
+        "title": "Новостройка: ЖК Кудрово",
+        "description": "Адрес: г. Санкт-Петербург, Мостковский проспект, д. 108<br>Стоимость: 6 млн<br>Описание: двухкомнатная квартира 52 кв.м.",
+        "image": "image/property-3/plan 3.jpg",
+        "image1": "image/property-3/plan 33.webp",
+        "image2": "image/property-3/plan 333.webp"
+      },
+      {
+        "id": "4",
+        "title": "Новостройка: ЖК Славянка",
+        "description": "Адрес: г. Пушкин, ул. Ленина, д. 1<br>Стоимость: 12 млн<br>Описание: двухкомнатная квартира 105 кв.м.",
+        "image": "image/property-4/plan 4.png",
+        "image1": "image/property-4/plan 44.jpeg",
+        "image2": "image/property-4/plan 444.jpeg"
+      }
+      ,
+      {
+        "id": "5",
+        "title": "Новостройка: ЖК Москва",
+        "description": "Адрес: г. Санкт-Петербург, ул. Генерала Хазова, д. 10<br>Стоимость: 16 млн<br>Описание: двухкомнатная квартира 88 кв.м.",
+        "image": "image/property-5/plan 5.png",
+        "image1": "image/property-5/plan 55.jpg",
+        "image2": "image/property-5/plan 555.jpeg"
+      }
+      ,
+      {
+        "id": "6",
+        "title": "Новостройка: ЖК Ленина",
+        "description": "Адрес: г. Санкт-Петербург, ул. Шишкова, д. 8<br>Стоимость: 12 млн<br>Описание: двухкомнатная квартира 32 кв.м.",
+        "image": "image/property-6/plan 6.jpg",
+        "image1": "image/property-6/plan 66.jpg",
+        "image2": "image/property-6/plan 666.jpg"
+      }
+      ,
+      {
+        "id": "7",
+        "title": "Новостройка: ЖК София",
+        "description": "Адрес: г. Санкт-Петербург, ул. Оранжерейная, д. 19<br>Стоимость: 5 млн<br>Описание: двухкомнатная квартира 33 кв.м.",
+        "image": "image/property-7/plan 7.jpg",
+        "image1": "image/property-7/plan 77.jpg",
+        "image2": "image/property-7/plan 777.jpg"
+      },
+      {
+        "id": "8",
+        "title": "Новостройка: ЖК Марксово",
+        "description": "Адрес: г. Санкт-Петербург, ул. Железнодорожная, д. 77<br>Стоимость: 7 млн<br>Описание: двухкомнатная квартира 65 кв.м.",
+        "image": "image/property-8/plan 8.png",
+        "image1": "image/property-8/plan 88.webp",
+        "image2": "image/property-8/plan 888.webp"
+      }
+    ]
+  }

@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* Навигация */
+.header-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-phone {
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+    font-size: 20px;
+}
+
+.header-phone-number:hover {
+    color: #ffd700;
+}
+
+.header-phone-number{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header-phone-icon {
+    width: 35px;
+    margin-right: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.navigation {
+    padding: 40px 30px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Навигация для адаптива*/
+
+.header-logo-adaptiv-open img{
+    display: none;
+}
+
+.header-logo-adaptiv-close img{
+    display: none;
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigation-adaptiv {
+    display: none;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95));
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.navigation-adaptiv a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+
+/* Информация агента */
+.agent {
+    padding: 50px 50px;
+}
+
+.agent-content {
+    display: flex;
+}
+
+.agent-img {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 8px rgba(0, 0, 0, 0.45);
+}
+
+.agent-info{
+    display: block;
+}
+
+.agent-info h1{
+    font-size: 50px;
+}
+
+.agent-info h2{
+    font-size: 30px;
+    margin-bottom: 120px;
+}
+
+.agent-info p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-right: 30px;
+}
+
+.agent-info button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e86b75;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.agent-info button:hover {
+    color: #0d0d0e;
+    border-color: #ff3c00;
+}
+
+/* Информация по услугам */
+
+#services{
+    background-color: #d4caca;
+    color: #131212;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#services h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.service-item {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Информация по объектам */
+
+#properties{
+    background-color: #d4caca;
+    color: #131212;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#properties h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.property-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-slider {
+    padding-bottom: 30px;
+}
+
+.properties-info{
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.properties-info h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.property-slider-number span{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.property-slider-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-slider-logo-left{
+    width: 60px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.property-slider-logo-left,
+.property-slider-logo-right {
+    width: 60px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.property-slider-logo-left:hover,
+.property-slider-logo-right:hover {
+    filter: brightness(0) invert(1);
+}
+
+.properties-img {
+    width: 700px;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Контакты и реквизиты */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.legal-info {
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.contacts-link {
+    display: flex;
+    list-style: none;
+}
+
+.contacts-link li {
+    margin-right: 20px;
+    padding-top: 30px;
+
+}
+
+.contacts-link img {
+    height: 40px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.contacts-link img:hover {
+    filter: brightness(0) invert(1) sepia(1) saturate(10000%) hue-rotate(60deg);
+}
+
+/* Адаптив под мобильную версию */
+@media (max-width: 900px) {
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Навигация адаптив под мобильную версию */
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation-adaptiv.active {
+        display: flex;
+    }
+
+    .navigation-adaptiv.close {
+        display: none;
+    }
+
+    .header-logo-adaptiv-close img{
+        display: flex;
+        filter: brightness(0) invert(1);
+    }
+
+    .header-logo-adaptiv-open img{
+        display: flex;
+        justify-content: space-between;
+        width: 40px;
+        padding-top: 30px;
+        padding-right: 30px;
+        cursor: pointer;
+        filter: brightness(0) invert(1);
+    }
+
+    .header-phone {
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+     /* Информация агента адаптив под мобильную версию */
+
+    .agent {
+        padding: 20px;
+    }
+    
+    .agent-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agent-info h1 {
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .agent-info h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .agent-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .agent-info button {
+        width: 100%;
+    }
+
+    .agent-info p {
+        margin-bottom: 10px;
+    }
+
+    /* Информация по услугам адаптив под мобильную версию */
+
+    #services h1 {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .services-list {
+        padding-bottom: 40px;
+    }
+
+    .services-list {
+        justify-content: flex-start;
+    }
+
+    .service-item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+     /* Информация по объекту адаптив под мобильную версию */
+
+     #properties h1 {
+        font-size: 25px;
+    }
+
+    .properties-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .property-slider {
+        padding-bottom: 30px;
+    }
+
+    .properties-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Контакты и реквизиты адаптив под мобильную версию */
+
+    .footer-content {
+        padding: 20px 30px;
+    }
+    
+}
+
+/* Адаптив под мобильную версию */
+@media (max-width: 500px) {
+
+    body {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Контакты и реквизиты адаптив под мобильную версию */
+    .footer-content {
+        display: block;
+    }
+    #contacts{
+        padding-top: 20px;
+    }
+
+}
