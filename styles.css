@@ -298,12 +298,6 @@ nav a:hover {
     padding: 30px 50px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
-.legal-info {
-    line-height: 1.5;
-    text-decoration: none;
-}
-
 .contacts-link {
     display: flex;
     list-style: none;
