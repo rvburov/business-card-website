@@ -16,10 +16,23 @@ body {
 }
 /* Навигация */
 .header-menu {
-    background: linear-gradient(to bottom right, #af9029, #ffffff);
+    position: relative;
     border-radius: 20px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    position: relative;
+    background: linear-gradient(to bottom right, rgba(175, 144, 41, 0.8), rgba(255, 255, 255, 0.8));
+}
+
+.header-menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('image/pngwing.com.png') center/cover no-repeat;
+    opacity: 0.18; /* Регулируйте прозрачность */
+    border-radius: 20px; /* Совпадает с .header-menu */
+    z-index: -1;
 }
 
 .header-navigation{
@@ -169,7 +182,7 @@ nav a:hover {
 
 /* Информация по услугам */
 
-.services{
+.services {
     background: linear-gradient(to bottom right , #ebdcad, #af9029);
     color: #131212;
     border-radius: 20px;
@@ -235,6 +248,7 @@ nav a:hover {
     margin: 5px 0;
     list-style-type: disc;
     font-weight: 300;
+    line-height: 1.8;
 }
 
 /* Информация по объектам */
@@ -359,6 +373,24 @@ nav a:hover {
     filter: brightness(0) invert(1) sepia(1) saturate(10000%) hue-rotate(60deg);
 }
 
+#contacts p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Стили для ссылок */
+#contacts p a {
+    color: #0088cc; /* Цвет ссылки (голубой, как в Telegram) */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-weight: bold; /* Делаем жирной */
+}
+
+#contacts p a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+
 /* Адаптив под мобильную версию */
 @media (max-width: 900px) {
 
@@ -478,6 +510,12 @@ nav a:hover {
     }
 
     .properties-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .properties-info h2,
+    .properties-info p{
         padding-left: 20px;
         padding-right: 20px;
     }
